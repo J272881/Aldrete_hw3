@@ -16,7 +16,7 @@ if ((operator) === '+', '-', '*', '/', '%') {
     } else if ((op) === '%') {
         answer = num1 % num2;
     } console.log(`${num1} ${op} ${num2} = ${answer}`);
-}else {
-        console.log("Not an operator");
-    }
+} else {
+    console.log("Not an operator");
+}
 

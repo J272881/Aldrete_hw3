@@ -19,9 +19,9 @@ switch (DayEntered) {
    case "fri":
       FollowingDay = "sat";
       break;
-    case "sat":
-     FollowingDay = "sun";
-     break;
+   case "sat":
+      FollowingDay = "sun";
+      break;
       defualt:
       console.log("Not a valid day type");
 }
